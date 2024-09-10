@@ -1,0 +1,69 @@
+* {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 9vw;
+    color: azure;
+    text-align: center;
+    text-decoration:underline;
+    margin-top: 14vw;
+   
+}
+.pad{
+padding: 1vw;
+background-color: white;
+}
+#but{
+    padding:0.5vw 1vw;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-top: 1vw;
+background-color: white;
+color: rgb(78, 78, 78);
+}
+.img{
+
+width: 50vw;
+height: 40vw;
+border-radius: 1vw;
+margin-top:10%
+}
+.main{
+    display: flex;
+ width: 100%;
+   height: 120%;
+   position: relative;
+  
+}
+.albumimg{
+    height: 15vw;
+    width: 19vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    border-radius: 2vw;
+}
+.albumname{
+    color: aliceblue;
+    font-size: 2vw;
+    margin-left: 7vw;
+    font-weight: 600;
+
+}
+.I{
+   height: 15vw;
+   width: 15vw; 
+   margin: 2vw;
+   border-radius:2vw ;
+}
+.I:hover{
+   scale: 1.1;
+   padding: 0.3vw;
+   background-color:white; 
+   transition: all 300ms;
+   rotate: 5deg; 
+    
+}
